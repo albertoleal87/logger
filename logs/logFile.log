@@ -1,0 +1,26 @@
+[07-Nov-2014 15:46:01 America/Monterrey] [DEBUG] -> Esto es un mensaje debug 
+[07-Nov-2014 15:46:01 America/Monterrey] [INFO] -> Esto es un mensaje info 
+[07-Nov-2014 15:46:01 America/Monterrey] [ERROR] -> Esto es un mensaje error 
+[07-Nov-2014 15:46:01 America/Monterrey] [QUERY] -> Esto es un query 
+[07-Nov-2014 15:46:01 America/Monterrey] [DEBUG] -> A continuación un print_r de logger 
+[07-Nov-2014 15:46:01 America/Monterrey] [DEBUG] -> Logger Object
+(
+    [logFile] => ./logs/logFile.log
+    [logLevels] => Array
+        (
+            [0] => DEBUG
+            [1] => INFO
+            [2] => ERROR
+            [3] => QUERY
+        )
+
+    [validConfig:Logger:private] => 1
+    [lastMessage:Logger:private] => A continuación un print_r de logger
+)
+ 
+[07-Nov-2014 15:46:01 America/Monterrey] [E_USER_ERROR] -> Esto es un error de tipo E_USER_ERROR in /Applications/MAMP/htdocs/logger/example.php on line 27 
+[07-Nov-2014 15:46:01 America/Monterrey] [E_USER_WARNING] -> Esto es un error de tipo E_USER_WARNING in /Applications/MAMP/htdocs/logger/example.php on line 28 
+[07-Nov-2014 15:46:01 America/Monterrey] [E_USER_NOTICE] -> Esto es un error de tipo E_USER_NOTICE in /Applications/MAMP/htdocs/logger/example.php on line 29 
+[07-Nov-2014 15:46:01 America/Monterrey] [E_NOTICE] -> Undefined variable: variableNoDefinida in /Applications/MAMP/htdocs/logger/example.php on line 32 
+[07-Nov-2014 15:46:01 America/Monterrey] [E_WARNING] -> Creating default object from empty value in /Applications/MAMP/htdocs/logger/example.php on line 32 
+[07-Nov-2014 15:46:01 America/Monterrey] [EXCEPTION] -> Esta es una Exception in /Applications/MAMP/htdocs/logger/example.php on line 35 
