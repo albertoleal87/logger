@@ -89,3 +89,8 @@ throw new Exception('Esta es una Exception');
 [07-Nov-2014 15:46:01 America/Monterrey] [EXCEPTION] -> Esta es una Exception in /Applications/MAMP/htdocs/logger/example.php on line 35 
 ```
 
+Contribuciones
+------------
+* [Diego de León](https://github.com/diegolg)
+* [Luis de Haro](https://github.com/deharodk)
+* [Alberto Leal](https://github.com/albertoleal87)
